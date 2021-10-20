@@ -1,16 +1,26 @@
-### Hi there 👋
+### Hello World 👋
 
-<!--
-**rullydamara/rullydamara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**About Me**
 
-Here are some ideas to get you started:
+- ❤️ I love writing TypeScript, and building fun experiments on type-level
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 💼 [Google Play Developer Page](https://play.google.com/store/apps/dev?id=7268001166970990021)
+
+- 👨‍💻 [My Website](https://www.damarastudio.com)
+
+- 💬 Ask me about anything [here](https://github.com/rullydamara/rullydamara/issues)
+
+- 📫 How to reach me
+
+
+
+**Project Complete**
+
+- [Website Desa Fajar Baru](https://fajarbaru-mesuji.desa.id)
+
+- [UlasanOtaku](https://ulasanotaku.com)
+
+- Pemerintah Desa Fajar Baru Android APP
+
+| <a href="https://github.com/rullydamara/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rullydamara&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Rully's github stats" /></a> | <a href="https://github.com/rullydamara/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rullydamara&layout=compact&theme=buefy&hide_border=true" /></a> |
+| ------------- | ------------- |
