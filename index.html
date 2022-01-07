@@ -2,19 +2,17 @@
 <html>
 
 <head>
+	<!-- meta -->
 	<div rd-get-page="commons/meta.html"></div> 
 </head>
 
 <body>
+	<!-- header -->
     <div rd-get-page="commons/header.html"></div> 
+	<!-- content -->
     <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container">
-                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
-                <div class="about-me">
-                    <p>Hello! I am <strong>Rully Damara</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
-            </div>
-        </section>
+        <!-- profil -->
+		<div rd-get-page="partials/profil.html"></div> 
         <section class="portfolio-block photography">
             <div class="container">
                 <div class="row no-gutters">
@@ -85,7 +83,9 @@
             </div>
         </div>
     </section>
+	<!-- footer -->
 	<div rd-get-page="commons/footer.html"></div>
+	<!-- js for load -->
     <script language='javascript' src="assets/js/include.html.js"></script>
 	<script>
 		includeHTML();

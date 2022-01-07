@@ -2,19 +2,17 @@
 <html>
 
 <head>
-    <?php include 'commons/meta.php';?>
+    <!-- meta -->
+	<div rd-get-page="commons/meta.html"></div> 
 </head>
 
 <body>
-    <?php include 'commons/header.php';?>
+    <!-- header -->
+    <div rd-get-page="commons/header.html"></div> 
+	<!-- content -->
     <main class="page cv-page">
-        <section class="portfolio-block block-intro border-bottom">
-            <div class="container">
-                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
-                <div class="about-me">
-                    <p>Hello! I am <strong>Rully Damara</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
-            </div>
-        </section>
+        <!-- profil -->
+		<div rd-get-page="partials/profil.html"></div> 
         <section class="portfolio-block cv">
             <div class="container">
                 <div class="work-experience group">
@@ -128,7 +126,13 @@
             </div>
         </section>
     </main>
-    <?php include 'commons/footer.php';?>
+    <!-- footer -->
+	<div rd-get-page="commons/footer.html"></div>
+	<!-- js for load -->
+    <script language='javascript' src="assets/js/include.html.js"></script>
+	<script>
+		includeHTML();
+	</script>
 </body>
 
 </html>
