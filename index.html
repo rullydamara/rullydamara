@@ -2,11 +2,11 @@
 <html>
 
 <head>
-	<?php include 'commons/meta.php';?>
+	<div rd-get-page="commons/meta.html"></div> 
 </head>
 
 <body>
-    <?php include 'commons/header.php';?>
+    <div rd-get-page="commons/header.html"></div> 
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
             <div class="container">
@@ -85,7 +85,11 @@
             </div>
         </div>
     </section>
-    <?php include 'commons/footer.php';?>
+	<div rd-get-page="commons/footer.html"></div>
+    <script language='javascript' src="assets/js/include.html.js"></script>
+	<script>
+		includeHTML();
+	</script>
 </body>
 
 </html>
