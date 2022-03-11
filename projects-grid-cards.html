@@ -3,10 +3,15 @@
 
 <head>
     <!-- meta -->
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <script src="assets/js/jquery.min.js"></script>
 	<div rd-get-page="commons/meta.html"></div> 
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <!-- header -->
     <div rd-get-page="commons/header.html"></div> 
 	<!-- content -->
@@ -18,7 +23,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/ulasanotaku.png" alt="Card Image"></a>
+                        <div class="card border-0"><a href="https://ulasanotaku.com"><img class="card-img-top scale-on-hover" src="assets/img/ulasanotaku.png" alt="Card Image"></a>
                             <div class="card-body">
                                 <h6><a href="https://ulasanotaku.com">UlasanOtaku.com</a></h6>
                                 <p class="text-muted card-text">Build with CMS Wordpress.</p>
@@ -26,7 +31,15 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/fajarbaru.png" alt="Card Image"></a>
+                        <div class="card border-0"><a href="https://pustakabaru.id"><img class="card-img-top scale-on-hover" src="assets/img/web/pustakabaru.png" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://pustakabaru.id">Perpusdes Pustaka Baru</a></h6>
+                                <p class="text-muted card-text">Build with SLiMS, a library opensource sofware from Indonesian Developer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://fajarbaru-mesuji.desa.id"><img class="card-img-top scale-on-hover" src="assets/img/fajarbaru.png" alt="Card Image"></a>
                             <div class="card-body">
                                 <h6><a href="https://fajarbaru-mesuji.desa.id">Pemerintah Desa Fajar Baru</a></h6>
                                 <p class="text-muted card-text">Build with Bootstrap 4 and OpenSID.</p>
@@ -34,31 +47,23 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/android/fajarbaru-app.png" alt="Card Image"></a>
+                        <div class="card border-0"><a href="https://play.google.com/store/apps/details?id=com.damarastudio.desafajarbaru.mesuji"><img class="card-img-top scale-on-hover" src="assets/img/android/fajarbaru-app.png" alt="Card Image"></a>
                             <div class="card-body">
-                                <h6><a href="#">Pemerintah Desa Fajar Baru App</a></h6>
+                                <h6><a href="https://play.google.com/store/apps/details?id=com.damarastudio.desafajarbaru.mesuji">Pemerintah Desa Fajar Baru App</a></h6>
                                 <p class="text-muted card-text">Build with java.</p>
-                            </div>
-                        </div>
-                    </div><!--
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/nature/image4.jpg" alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Lorem Ipsum</a></h6>
-                                <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/nature/image5.jpg" alt="Card Image"></a>
                             <div class="card-body">
-                                <h6><a href="#">Lorem Ipsum</a></h6>
-                                <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+                                <h6><a href="#">Internal Network of Pemerintah Desa Fajar Baru</a></h6>
+                                <p class="text-muted card-text">Instalation internal server and local Network for Pemerintah Desa Fajar Baru.</p>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/damarastudio.png" alt="Card Image"></a>
+                        <div class="card border-0"><a href="https://damarastudio.com"><img class="card-img-top scale-on-hover" src="assets/img/damarastudio.png" alt="Card Image"></a>
                             <div class="card-body">
                                 <h6><a href="https://damarastudio.com">DamaraStudio</a></h6>
                                 <p class="text-muted card-text">My private blog, build with CMS Wordpress.</p>
@@ -71,6 +76,11 @@
     </main>
     <!-- footer -->
 	<div rd-get-page="commons/footer.html"></div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 	<!-- js for load -->
     <script language='javascript' src="assets/js/include.html.js"></script>
 	<script>
