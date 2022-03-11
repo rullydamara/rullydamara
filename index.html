@@ -3,10 +3,19 @@
 
 <head>
 	<!-- meta -->
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <script src="assets/js/jquery.min.js"></script>
 	<div rd-get-page="commons/meta.html"></div> 
 </head>
 
 <body>
+    
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+  
+  
 	<!-- header -->
     <div rd-get-page="commons/header.html"></div> 
 	<!-- content -->
@@ -16,9 +25,9 @@
         <section class="portfolio-block photography">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/fajarbaru.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/ulasanotaku.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/damarastudio.png"></a></div>
                 </div>
             </div>
         </section>
@@ -70,12 +79,12 @@
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-5 offset-lg-1 text">
                     <h3>Website Project</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
+                    <p>The official website of Pemerintah Desa Fajar Baru.</p>
                 </div>
                 <div class="col-md-12 col-lg-5">
                     <div class="portfolio-laptop-mockup">
                         <div class="screen">
-                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
+                            <div class="screen-content" style="background-image:url(&quot;assets/img/fajarbaru.png&quot;);"></div>
                         </div>
                         <div class="keyboard"></div>
                     </div>
@@ -87,6 +96,11 @@
 	<div rd-get-page="commons/footer.html"></div>
 	<!-- js for load -->
     <script language='javascript' src="assets/js/include.html.js"></script>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 	<script>
 		includeHTML();
 	</script>
