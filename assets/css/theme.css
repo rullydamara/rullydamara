@@ -1,0 +1,36 @@
+
+/*!
+ *css untuk footer
+ */
+.page-footer {
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.page-footer .links {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.page-footer .social-icons {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 780px) {
+    .page-footer .links {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    
+    .page-footer .social-icons {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+  }
