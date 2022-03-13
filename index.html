@@ -2,82 +2,46 @@
 <html>
 
 <head>
-	<!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Rulli Damara Putra</title> 
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/loading.css">
-    <script src="assets/js/jquery.min.js"></script>
-	<div rd-get-page="commons/meta.html"></div> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
-    
-
+    <!--loader-->
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
-      </div>
-  
-  
-	<!-- header -->
-    <div rd-get-page="commons/header.html"></div> 
-	<!-- content -->
+    </div>
+    <!--navigation-->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">RULLI DAMARA PUTRA</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visualy-hidden"></span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hire-me.html">Hire me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--content-->
     <main class="page lanidng-page">
-        <!-- profil -->
-        
-		<div rd-get-page="partials/profil.html"></div>
-        <!-- 
-        <section class="portfolio-block photography">
+        <section class="portfolio-block block-intro">
             <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/fajarbaru.png"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/ulasanotaku.png"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/damarastudio.png"></a></div>
+                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
+                <div class="about-me">
+                    <p>Hello! I am <strong>Rulli Damara Putra</strong>. I work as web and front end developer. </p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
-            </div>
-        </section>
-       
-        <section class="portfolio-block skills">
-            <div class="container">
-                <div class="heading">
-                    <h2>Special Skills</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Web Design</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Interface Design</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Photography and Print</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         -->
     </main>
+    <!--featured website-->
     <section class="portfolio-block website gradient">
         <div class="container">
             <div class="row align-items-center">
@@ -88,7 +52,7 @@
                 <div class="col-md-12 col-lg-5">
                     <div class="portfolio-laptop-mockup">
                         <div class="screen">
-                            <div class="screen-content" style="background-image:url(&quot;assets/img/fajarbaru.png&quot;);"></div>
+                            <div class="screen-content" style="background-image:url(assets/img/fajarbaru.png);"></div>
                         </div>
                         <div class="keyboard"></div>
                     </div>
@@ -96,18 +60,33 @@
             </div>
         </div>
     </section>
-	<!-- footer -->
-	<div rd-get-page="commons/footer.html"></div>
-	<!-- js for load -->
-    <script language='javascript' src="assets/js/include.html.js"></script>
+    <!--footer-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links">
+                <a href="#">About me</a>
+                <a href="#">Contact me</a>
+                <a href="#">Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-instagram-outline"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://github.com/rullydamara"><i class="icon ion-social-github"></i></a>
+                <a href="https://id.linkedin.com/in/rulli-damara-putra"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--script-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
     <script>
         $(window).on("load",function(){
           $(".loader-wrapper").fadeOut("slow");
         });
     </script>
-	<script>
-		includeHTML();
-	</script>
 </body>
 
 </html>
