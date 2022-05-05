@@ -2,7 +2,6 @@
 <h3 align="center">A Front-End Web Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rullydamara&label=Profile%20views&color=0e75b6&style=flat" alt="rullydamara" /> </p>
-![](https://hit.yhype.me/github/profile?user_id=45301948)
 
 **About Me**
 
@@ -35,3 +34,4 @@
 
 | <a href="https://github.com/rullydamara/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=rullydamara&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Rully's github stats" /></a> | <a href="https://github.com/rullydamara/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rullydamara&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
+![](https://hit.yhype.me/github/profile?user_id=45301948)
