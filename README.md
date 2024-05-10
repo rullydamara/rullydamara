@@ -17,15 +17,13 @@
 
 
 
-**Recent Works**
+**Recent Works as Freelancer IT Support**
 
-- [Website Desa Fajar Baru](https://fajarbaru-mesuji.desa.id)
+- [Website Pemerintah Desa Fajar Asri](https://fajarasri-mesuji.desa.id) | January 2023 - now
 
-- [UlasanOtaku](https://ulasanotaku.com)
-
-- [Pemerintah Desa Fajar Baru Android APP](https://play.google.com/store/apps/details?id=com.damarastudio.desafajarbaru.mesuji)
-
-- [Pustaka Baru](https://pustakabaru.id)
+- [Website Pemerintah Desa Fajar Indah](https://fajarindah-mesuji.desa.id) | Januari 2024 - now
+  
+- [Website Pemerintah Desa Fajar Baru](). | Agust 2018 - Dec 2023
 
 **Connect with me**
 <p align="left">
