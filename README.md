@@ -5,11 +5,13 @@
 
 **About Me**
 
-- ❤️ I love writing TypeScript, and building fun experiments on type-level
+- ❤️ I love writing TypeScript, building fun experiments on type-level,
 
 - 💼 [Google Play Developer Page](https://play.google.com/store/apps/dev?id=7268001166970990021)
 
-- 👨‍💻 [My Website](https://www.damarastudio.com)
+- 👨‍💻 Visit [My personal blog](https://www.damarastudio.com)
+
+- 👨‍💻 Visit My Portfolio Website at [https://damaraputra.my.id](https://www.damaraputra.my.id)
 
 - 💬 Ask me about anything [here](https://github.com/rullydamara/rullydamara/issues)
 
