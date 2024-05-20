@@ -5,7 +5,7 @@
 
 **About Me**
 
-- ❤️ I love writing TypeScript, building fun experiments on type-level,
+- ❤️ I like building IT systems, such as smart offices, smart villages, smart CCTV, etc.
 
 - 💼 [Google Play Developer Page](https://play.google.com/store/apps/dev?id=7268001166970990021)
 
@@ -23,9 +23,9 @@
 
 - [Website Pemerintah Desa Fajar Asri](https://fajarasri-mesuji.desa.id) | January 2023 - now
 
-- [Website Pemerintah Desa Fajar Indah](https://fajarindah-mesuji.desa.id) | Januari 2024 - now
+- [Website Pemerintah Desa Fajar Indah](https://fajarindah-mesuji.desa.id) | January 2024 - now
   
-- [Website Pemerintah Desa Fajar Baru](). | Agust 2018 - Dec 2023
+- [Website Pemerintah Desa Fajar Baru](). | August 2018 - December 2023
 
 **Connect with me**
 <p align="left">
