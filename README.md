@@ -5,9 +5,7 @@
 
 **About Me**
 
-- ❤️ I like building IT systems, such as smart offices, smart villages, smart CCTV, etc.
-
-- 💼 [Google Play Developer Page](https://play.google.com/store/apps/dev?id=7268001166970990021)
+- ❤️ I like building IT systems, such as smart offices, [smart villages](https://lampung.tribunnews.com/2023/08/12/smart-village-desa-fajar-baru-mesuji-miliki-pelayanan-serba-online), smart CCTV, etc.
 
 - 👨‍💻 Visit [My personal blog](https://www.damarastudio.com)
 
